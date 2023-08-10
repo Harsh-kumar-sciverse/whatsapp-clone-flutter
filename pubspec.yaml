@@ -1,0 +1,97 @@
+name: WhatsApp
+description: Chat
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.2
+  image_picker: ^0.8.4+10
+  firebase_auth: ^4.2.5
+  firebase_core: ^2.4.1
+  cloud_firestore: ^4.3.1
+  firebase_storage: ^11.0.10
+  google_sign_in: ^5.4.3
+  google_sign_in_web: ^0.10.1+2
+  google_fonts: ^3.0.1
+  connectivity_plus: ^3.0.2
+  url_launcher: ^6.1.8
+  share_plus: ^6.3.0
+  firebase_messaging: ^14.2.1
+  intl: ^0.17.0
+  firebase_crashlytics: ^3.0.12
+  intl_phone_field: ^3.1.0
+  flutter_otp_text_field: ^1.1.0+2
+  animated_emoji: ^1.0.1+2
+  lottie: ^2.2.0
+  font_awesome_flutter: ^10.4.0
+  uuid: ^3.0.7
+  swipe_to: ^1.0.2
+  scrollable_positioned_list: ^0.3.5
+  firebase_app_check: ^0.1.1+13
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  flutter_launcher_icons: "^0.11.0"
+  flutter_native_splash: ^2.2.16
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "dev_assets/whatsapp.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "dev_assets/whatsapp.png"
+    background_color: "#ffffff"
+    theme_color: "#ffffff"
+  windows:
+    generate: true
+    image_path: "dev_assets/whatsapp.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "dev_assets/whatsapp.png"
+
+flutter_native_splash:
+  fullscreen: true
+  color: "#ffffff"
+  image: "dev_assets/whatsappsplash.png"
+  color_dark: "#121212"
+  image_dark: "dev_assets/whatsappsplash.png"
+  android_gravity: fill
+
+  android_12:
+    image: "dev_assets/whatsappsplash.png"
+    icon_background_color: "#ffffff"
+    image_dark: "dev_assets/whatsappsplash.png"
+    icon_background_color_dark: "#121212"
+
+  web: false
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+    - icons/
