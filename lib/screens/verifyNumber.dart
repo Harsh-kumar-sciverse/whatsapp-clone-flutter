@@ -92,7 +92,7 @@ class _VerifyNumberState extends State<VerifyNumber> {
           } else {
             setState(() {
               DialogAndSnackbar.showSnackBar(
-                  title: 'Wrong OTP !', context: context);
+                  title: '${e.code}', context: context);
             });
           }
         },
